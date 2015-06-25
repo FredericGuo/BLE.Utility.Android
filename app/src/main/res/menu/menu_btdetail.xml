@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item  android:id="@+id/ble_connect"
+        android:title="@string/connect_ble"
+        android:textSize="40sp"
+        android:actionLayout="@layout/connect_button_layout"
+        app:showAsAction="ifRoom" />
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/ble_disconnect"
+        android:title="@string/disconnect_ble"
+        app:showAsAction="ifRoom" />
+</menu>
